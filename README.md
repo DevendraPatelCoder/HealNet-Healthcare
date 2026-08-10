@@ -8,10 +8,8 @@ This Website will update and came with new features in future.
 
 ## Live Preview
 
-> Add your live deployment link here once hosted (e.g. via Netlify, Vercel, or GitHub Pages).
-
 ```
-🔗 https://your-live-link-here.com
+🔗 https://healnet-healthcare.vercel.app/
 ```
 
 ---
