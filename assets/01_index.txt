@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealNet - Healthcare</title>
+    <link rel="stylesheet" href="02_style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5ed151a782.js" crossorigin="anonymous"></script>
+</head>
+
+<body> <!-- Header Tag starting -->
+    <header>
+        <div class="container"> <!-- NavBar starting -->
+            <nav aria-label="Main Navigation"> <!-- Left side container starting -->
+                <div class="left-nav"> <a href="index.html" class="logo"> <img src="assets/images/HealNet_logo.webp"
+                            alt="Website's Logo"> HealNet </a> </div> <!-- Left side container ending -->
+                <!-- Center container starting -->
+                <div class="center-nav" id="center-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Find Doctors</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div> <!-- Center contianer ending --> <!-- Right side container starting -->
+                <div class="right-nav"> <a href="#" class="button">Join us</a> </div>
+                <!-- Right side container ending -->
+                <!-- Mobile hamburger toggle starting -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="center-nav">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- Mobile hamburger toggle ending -->
+            </nav> <!-- NavBar ending -->
+        </div>
+    </header> <!-- Header Tag ending --> <!-- Main Tag starting -->
+    <meta name="description"
+        content="HealNet provides online healthcare consultations, doctor booking, prescriptions, and digital medical services.">
+    <!-- Hero section starting -->
+    <section class="hero"> <!-- Container starting -->
+        <div class="container"> <!-- Hero Section Content starting -->
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1>Your <span>trusted partner</span> in digital healthcare.</h1>
+                    <p><span>Empowering Your Health at Every Step.</span> Experience personalized medical care from the
+                        comfort of your home. Connect with <span>certified doctors</span>, or manage prescriptions, and
+                        schedule appointments with ease. Ready to take control of your health? <span>Get Started</span>
+                        or Book an Appointment today.</p> <a href="#">Book an appointment <i
+                            class="fa-solid fa-angle-right"></i></a>
+                    <div class="trusted-companies">
+                        <div class="text">
+                            <p>Trusted by millions across the globe:</p>
+                        </div>
+                        <div class="company-icons"> <i class="fa-brands fa-amazon"></i> <i
+                                class="fa-brands fa-apple"></i> <i class="fa-brands fa-google"></i> <i
+                                class="fa-brands fa-notion"></i> <i class="fa-brands fa-spotify"></i> <i
+                                class="fa-brands fa-slack"></i> </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="img-box"> <img src="assets/images/doctor_image_01.webp" alt="Doctor consulting patient online">
+                    </div>
+                </div>
+            </div> <!-- Hero Section Content ending --> <!-- Appointment Booking container starting -->
+            <div class="appointment-container">
+                <h3>Easily book an appointment in 3 simple steps.</h3> <!-- Form tag starting -->
+                <form action="">
+                    <div class="input-group"> <label for="email"><i class="fa-solid fa-envelope"></i> Email
+                            Address</label> <input type="email" id="email" name="email"
+                            placeholder="Enter Your Email Address"> </div>
+                    <div class="input-group"> <label for="contact-no"><i class="fa-solid fa-phone"></i> Contact
+                            Number</label> <input type="tel" id="contact-no" name="contact-no"
+                            placeholder="Enter Your Contact Number"> </div>
+                    <div class="input-group"> <label for="appointment-date"><i class="fa-solid fa-calendar-days"></i>
+                            Date of Appointment</label> <input type="date" id="appointment-date" name="appointment-date"
+                            placeholder="Select Date of Appointment"> </div>
+                    <div class="btn"> <button type="submit">Book Now <i class="fa-solid fa-circle-check"></i></button>
+                    </div>
+                </form> <!-- Form tag ending -->
+            </div> <!-- Appointment Booking container ending -->
+        </div> <!-- Container ending -->
+    </section> <!-- Hero section ending --> <!-- Service Section starting -->
+    <section class="services"> <!-- Container starting -->
+        <div class="container">
+            <h3 class="section-subtitle">Top <span>services</span> we offer</h3>
+            <p class="section-paragraph">In today’s fast-paced world, your health deserves the utmost attention and
+                convenience. That’s why HealNet offers a suite of integrated services designed to cater to your
+                healthcare needs digitally:</p> <!-- Cards container starting -->
+            <div class="services-cards">
+                <div class="card">
+                    <div class="icon-box"> <i class="fa-solid fa-video"></i> </div>
+                    <h4>Online Consultations</h4>
+                    <p>Consult with top doctors across various specialties via video or chat communication. It’s totally
+                        secure, private, and convenient. Choose the best time for an in-person visit with our
+                        easy-to-use scheduling system, or proceed with our online consultation.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box"> <i class="fa-solid fa-calendar-days"></i> </div>
+                    <h4>Booking Appointments</h4>
+                    <p>Choose the best time for an in-person visit with our easy-to-use scheduling system, or proceed
+                        with our online consultation features.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box"> <i class="fa-solid fa-file-prescription"></i> </div>
+                    <h4>Prescriptions</h4>
+                    <p>Receive and renew prescriptions digitally after your consultation with our specialists . </p>
+                </div>
+                <div class="card">
+                    <div class="icon-box"> <i class="fa-solid fa-clipboard-list"></i> </div>
+                    <h4>Medical Notes</h4>
+                    <p>Obtain necessary medical notes for work or school with only a few clicks of hassle.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-box"> <i class="fa-solid fa-prescription-bottle-medical"></i> </div>
+                    <h4>Medicine Refills</h4>
+                    <p>Skip the pharmacy queues and save time + energy by ordering medicine refills online.</p>
+                </div>
+            </div> <!-- Crads container ending -->
+        </div> <!-- Container ending -->
+    </section> <!-- Services section ending --> <!-- About US section starting -->
+    <section class="about-us"> <!-- Container starting -->
+        <div class="container"> <!-- About Content container starting -->
+            <div class="about-content">
+                <h3 class="section-subtitle"> <span>HealNet’s Story:</span> Get to know us </h3>
+                <div class="about-wrapper">
+                    <div class="about-left"> <img src="assets/images/doctor_image_02.webp"
+                            alt="Nurse assisting patient in hospital"> </div>
+                    <div class="about-right">
+                        <p>HealNet is more than just an online medical service; it’s a movement towards accessible,
+                            efficient, and compassionate healthcare for all. Founded by a team of visionary doctors,
+                            healthcare professionals, and technology experts, we are driven by the mission to deliver
+                            exceptional medical care directly to you, no matter where you are. Our platform is built on
+                            the pillars of trust, innovation, and patient-centricity, ensuring that every interaction is
+                            personalized and every treatment plan is tailored to your unique needs. With a network of
+                            licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s
+                            just a click away.</p> <button type="button">Learn more about us</button>
+                    </div>
+                </div>
+            </div> <!-- About Content container ending -->
+        </div> <!-- Container ending -->
+    </section> <!-- About US section ending --> <!-- Plateform Works section starting -->
+    <section class="how-it-works"> <!-- Container starting -->
+        <div class="container">
+            <h3 class="section-subtitle"> How <span>our platform</span> works </h3>
+            <p class="section-paragrpah">Navigating your healthcare journey with HealNet is seamless. Just follow these
+                steps mentioned below to proceed with your selected services. You can also see our FAQ section for more
+                guidance:</p> <!-- Step Container starting -->
+            <div class="steps-container"> <!-- Left Content starting -->
+                <div class="step-left">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Create Your Profile</h4>
+                            <p>Sign up and fill in your medical history securely. Setting up your profile this way would
+                                ensure that you stay up-to-date with your medical processes.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Choose Your Service</h4>
+                            <p>Select from our range of services and book a consultation. Booking a consultation with
+                                HealNet is fairly simple and straight-forward.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Meet Your Doctor</h4>
+                            <p>Have a virtual consultation with one of our certified specialists, or go for a physical
+                                visit to the doctor in case you opted for a physical check-up.</p>
+                        </div>
+                    </div>
+                </div> <!-- Left Content ending --> <!-- Right Content starting -->
+                <div class="step-right"> <img src="assets/images/doctor_image_03.webp"
+                        alt="Female doctor reviewing medical reports"> </div> <!-- Right Content ending -->
+            </div> <!-- Step Container ending -->
+        </div> <!-- Container ending -->
+    </section> <!-- Plateform Works section ending --> <!-- Testimonials Section starting -->
+    <section class="testimonials"> <!-- Container starting -->
+        <div class="container">
+            <h3 class="section-subtitle"> <span>Patient Testimonials</span> Hear from Those We’ve Cared For </h3>
+            <p class="section-paragraph"> Discover the difference we make through the voices of those we’ve served: </p>
+            <div class="testimonial-grid"> <!-- Left Card starting -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img"> <img src="assets/images/patient_01.webp" alt="Smiling female patient"> </div>
+                    <div class="testimonial-content">
+                        <p class="review"> “After my knee surgery, the convenience of online consultations made my
+                            recovery smoother than I could have imagined." </p> <span class="name"> - Linda A. </span>
+                    </div>
+                </div> <!-- Left Card ending --> <!-- Right Card starting -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img"> <img src="assets/images/patient_02.webp" alt="Elderly man portrait"> </div>
+                    <div class="testimonial-content">
+                        <p class="review"> “Managing chronic conditions like diabetes requires a lot of vigilance, but
+                            the medicine refill system has simplified my life.” </p> <span class="name"> - Henry B.
+                        </span>
+                    </div>
+                </div> <!-- Right Card ending --> <!-- Stats Container starting -->
+                <div class="testimonials-stats">
+                    <div class="stat-item">
+                        <h3>10,000+</h3>
+                        <p>Successful Consultations</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2,500+</h3>
+                        <p>Healthcare Professionals</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>Patient Satisfaction Rate</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Top Specialists</p>
+                    </div>
+                </div> <!-- Stats Container ending --> <!-- Left Card starting -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img"> <img src="assets/images/patient_03.webp" alt="Elderly man portrait"> </div>
+                    <div class="testimonial-content">
+                        <p class="review"> “The prescription refill system is a game-changer for managing my diabetes.
+                            It’s really efficient and completely hassle-free.” </p> <span class="name"> - Joshua T.
+                        </span>
+                    </div>
+                </div> <!-- Left Card ending --> <!-- Right Card starting -->
+                <div class="testimonial-card">
+                    <div class="testimonial-img"> <img src="assets/images/patient_04.webp" alt="Smiling female patient"> </div>
+                    <div class="testimonial-content">
+                        <p class="review"> “Finding a doctor who really understands all of my health needs has never
+                            been easier. This platform has changed my life.” </p> <span class="name"> - Samantha K.
+                        </span>
+                    </div>
+                </div> <!--Right Card ending -->
+            </div>
+        </div> <!-- Container ending -->
+    </section> <!-- Testimonials Section ending --> <!-- Special Doctors section starting -->
+    <section class="special-doctors"> <!-- Container starting -->
+        <div class="container">
+            <h3 class="section-subtitle"><span>Masters of Medicine:</span> Meet our team of specialists</h3>
+            <div class="section-paragraph">
+                <p>Our team of specialists is at the forefront of medical innovation. Each specialist brings a unique
+                    blend of expertise, empathy, and experience to ensure that your health is in the best hands:</p>
+            </div> <!-- Cards Container starting -->
+            <div class="cards-container">
+                <div class="doctor-card mendoctor2"> <img src="assets/images/doctor_image_07.webp" alt="Dr. Sarah Johnson, Cardiologist.">
+                    <div class="doctor-content">
+                        <h4>Dr. Sarah Johnson (Cardiologist)</h4>
+                        <p>Heart health is Dr. Sarah Johnson passion, and her approach to cardiology integrates
+                            cutting-edge technology with compassionate care. She’s a respected voice in the prevention
+                            of heart disease and a trusted partner to her patients on their journey to wellness.</p> <a
+                            href="#"><span>Book appointment</span> <i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="doctor-card"> <img src="assets/images/doctor_image_06.webp" alt="Women specalist doctor.">
+                    <div class="doctor-content">
+                        <h4>Dr. Mark Lee <small>(Dermatologist)</small></h4>
+                        <p>Dr. Lee is a visionary in dermatology, advancing treatments for skin health with a gentle,
+                            holistic approach. His dedication to clinical excellence and patient education has made him
+                            a leader in dermatological care. He’s known for his precision and commitment to
+                            patient-centered care.</p> <a href="#"><span>Book appointment</span> <i
+                                class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+            </div> <!-- Cards Contaienr ending -->
+        </div> <!-- Container ending -->
+    </section> <!-- Special Doctors section starting --> <!-- Help Desk section starting -->
+    <section class="help-section"> <!-- Container starting -->
+        <div class="container">
+            <h3 class="section-subtitle">Reach our <span>Help Desk</span> for support</h3>
+            <p class="section-paragraph">Questions? Need assistance? Our dedicated support team is here to help you
+                every step of the way:</p>
+            <div class="help-content">
+                <form action="#" method="POST">
+                    <div class="input-group"> <i class="fa-solid fa-user"></i> <input type="text" name="name"
+                            placeholder="Enter Your First Name"> </div>
+                    <div class="input-group"> <i class="fa-solid fa-envelope"></i> <input type="email" name="email"
+                            placeholder="Enter Your Email Address"> </div> <button type="submit">Contact us <i
+                            class="fa-solid fa-circle-arrow-right"></i></button>
+                </form>
+            </div>
+        </div> <!-- Container ending -->
+    </section> <!-- Help Desk section ending --> </main> <!-- Main Tag ending --> <!-- Footer Tag starting -->
+    <footer role="contentinfo"> <!-- Container starting -->
+        <div class="container"> <!-- Footer top container starting -->
+            <div class="footer-top"> <!-- Column - 1 Starting -->
+                <div class="footer-col">
+                    <div class="footer-logo"> <a href="index.html" class="logo"> <img src="assets/images/HealNet_logo.webp"
+                                alt="Website's Logo"> <span>HealNet</span> </a> </div>
+                    <div class="about">
+                        <p>Experience personalized medical care from the comfort of your home.</p>
+                    </div>
+                </div> <!-- Column - 1 ending --> <!-- Column - 2 starting -->
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Getting Started</a></li>
+                        <li><a href="#">FAQS</a></li>
+                        <li><a href="#">Help Articles</a></li>
+                        <li><a href="#">Report an issue</a></li>
+                        <li><a href="#">Contact Help Desk</a></li>
+                    </ul>
+                </div> <!-- Column - 2 ending --> <!-- Column - 3 starting -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Booking appointments</a></li>
+                        <li><a href="#">Online consultations</a></li>
+                        <li><a href="#">Prescriptions</a></li>
+                        <li><a href="#">Medicine Refills</a></li>
+                        <li><a href="#">Medical Notes</a></li>
+                    </ul>
+                </div> <!-- Column - 3 ending --> <!-- Column - 4starting -->
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Notice</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                        <li><a href="#">Trust Center</a></li>
+                    </ul>
+                </div> <!-- Column - 4 ending -->
+            </div> <!-- Footer top contaienr ending -->
+            <hr> <!-- Footer top container starting -->
+            <div class="footer-bottom">
+                <div class="icons"> <a href="#"><i class="fa-brands fa-facebook"></i></a> <a href="#"><i
+                            class="fa-brands fa-instagram"></i></a> <a href="#"><i
+                            class="fa-brands fa-linkedin"></i></a> <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div> <span>HealNet 2026 © All Rights Reserved</span>
+            </div> <!-- Footer bottom container ending -->
+        </div> <!-- Container ending -->
+    </footer> <!-- Footer Tag ending -->
+
+    <script src="03_script.js"></script>
+</body>
+
+</html>
